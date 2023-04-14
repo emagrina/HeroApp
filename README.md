@@ -7,8 +7,6 @@ HeroApp is a small frontend application built with React that allows users to ex
 <img align="center" alt="Icon of HTML5" src="https://skillicons.dev/icons?i=react,js&theme=light">
 </a>
 
-****
-
 
 <img src=".img/home_page.png" alt="home page">
 
