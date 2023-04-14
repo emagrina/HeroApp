@@ -1,0 +1,16 @@
+body {
+    background-image: radial-gradient(hsla(215 27.907% 16.863%/.2) .5px,hsla(0 0% 94.902%/1) .5px);
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.active {
+ background: #34d399;
+}
+
+/* Estilo para el botón */
+.btn {
+    border: none; /* Eliminar el borde */
+    outline: none; /* Eliminar el contorno de enfoque */
+}
