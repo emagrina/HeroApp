@@ -1,6 +1,5 @@
 # HeroApp
 
-****
 HeroApp is a small frontend application built with React that allows users to explore and discover information about their favorite superheroes. Users can search for superheroes by name, view details such as their biography, abilities and powers, and bookmark their favorite characters. With a simple and attractive user interface, HeroApp is perfect for superhero fans who want quick and easy information about their favorite characters.
 
 
