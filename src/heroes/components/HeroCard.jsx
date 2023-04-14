@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const HeroCard = ( { id, superhero, publisher, alter_ego, first_appearance } ) => {
-    const heroImageUrl = `/assets/heroes/${ id }-min.jpg`;
+    const heroImageUrl = `./assets/heroes/${ id }-min.jpg`;
 
     return (
         <div className="card lg:card-side bg-base-100 shadow-xl">

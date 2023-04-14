@@ -15,7 +15,7 @@ const HeroPage = () => {
         navigate( -1 );
     };
 
-    const heroImageUrl = `/assets/heroes/${ id }-min.jpg`;
+    const heroImageUrl = `./../assets/heroes/${ id }-min.jpg`;
 
     if ( !hero ) {
         return <Navigate to={ '/' }/>;
@@ -25,8 +25,11 @@ const HeroPage = () => {
         <>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row">
-                    <img src={ heroImageUrl }
-                         className="max-w-sm rounded-lg shadow-2xl  animate__animated animate__fadeIn" mx-10="true"/>
+                    <img
+                         src={ heroImageUrl }
+                         alt={ hero.superhero }
+                         className="max-w-sm rounded-lg shadow-2xl  animate__animated animate__fadeIn" mx-10="true"
+                    />
                     <div className="animate__animated animate__fadeIn">
                         <h1 className="text-5xl font-bold">{ superhero }</h1>
                         <p className="py-6">His real name is { alter_ego }, where we saw him appear for the first time
